@@ -1,3 +1,3 @@
 # Don't include existing installation data, but keep placeholder file
-install-files/
+install-files/*
 !install-files/PLACE_FILES_HERE_AND_REMOVE_ME
