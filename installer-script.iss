@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Legend of Cube"
-#define MyAppVersion "pre-alpha"
 #define MyAppExeName "LegendOfCube.exe"
+#define MyAppVersion GetFileVersion('install-files\LegendOfCube.exe')
 #define DotNetInstaller "dotNetFx40_Client_x86_x64.exe"
 #define XNAInstaller "xnafx40_redist.msi"
 
@@ -14,7 +14,7 @@
 AppId={{6AD01120-E873-4820-B79C-B26A792C6949}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
+AppVerName={#MyAppName} {#MyAppVersion}
 DefaultDirName={pf}\LegendOfCube
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
