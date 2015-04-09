@@ -35,11 +35,6 @@ Source: "dependencies\{#DotNetInstaller}"; DestDir: "{tmp}"
 Source: "dependencies\{#XNAInstaller}"; DestDir: "{tmp}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
-[Dirs]
-; Let users modify content of program directory, in case we want to
-; create log files or change settings without running as administrator
-Name:"{app}\"; Permissions: users-modify
-
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
