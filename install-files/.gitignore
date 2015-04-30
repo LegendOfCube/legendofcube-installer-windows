@@ -1,0 +1,3 @@
+# Ignore existing files, except this
+*
+!.gitignore
