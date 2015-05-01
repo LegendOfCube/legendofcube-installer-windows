@@ -17,6 +17,7 @@ AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
 DefaultDirName={pf}\LegendOfCube
 DefaultGroupName={#MyAppName}
+UninstallDisplayIcon={app}\{#MyAppExeName}
 AllowNoIcons=yes
 OutputDir=latest-version
 OutputBaseFilename=legendofcube-setup-{#MyAppVersion}
