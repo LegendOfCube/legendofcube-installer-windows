@@ -1,4 +1,8 @@
-# Create Legend of Cube Installer
+# Installer for Legend of Cube
+
+See [main repo](https://github.com/LegendOfCube/LegendOfCube-Game) for more information about the game.
+
+## Creating the Installer
 
 1. Install Inno Setup if not already installed
 	- Download from: http://www.jrsoftware.org/isdl.php (version 5.5.5 as of writing)
